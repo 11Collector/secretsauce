@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import BlueprintSection from "./components/BlueprintSection";
 import PortfolioSection from "./components/PortfolioSection";
 import CaseStudies from "./components/CaseStudies";
-import SecretSauceAudit from "./components/SecretSauceAudit";
+import TechnicalPhilosophy from "./components/TechnicalPhilosophy";
 import Contact from "./components/Contact";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <BlueprintSection />
       <PortfolioSection />
       <CaseStudies />
-      <SecretSauceAudit />
+      <TechnicalPhilosophy />
       <Contact />
     </main>
   );

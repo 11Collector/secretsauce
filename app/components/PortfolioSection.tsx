@@ -29,60 +29,60 @@ type PortfolioItem = {
 const portfolioItems: PortfolioItem[] = [
   // ── TOOLS / PRODUCTS ─────────────────────────────────────────────
   {
-    id: 101,
+    id: 102,
     type: "tool",
-    category: "Interactive Tool",
-    title: "Wheel of Life",
-    subtitle: "เครื่องมือวัดสมดุลชีวิต",
+    category: "Interactive App",
+    title: "DISC Personality Assessment",
+    subtitle: "ระบบประเมินและวิเคราะห์บุคลิกภาพ",
     description:
-      "เครื่องมือ Interactive ให้ผู้ใช้ประเมินสมดุลชีวิตใน 8 มิติ (สุขภาพ การเงิน ความสัมพันธ์ ฯลฯ) พร้อม visualize ผลเป็น Radar Chart แบบ real-time",
-    tags: ["Life Balance", "Self-Assessment", "Interactive"],
-    link: "https://www.upskilleveryday.com/tools/wheel-of-life",
+      "สร้างแบบประเมินบุคลิกภาพภาษาไทยขึ้นมาเองโดยใช้ React รันระบบคำนวณคะแนนและสรุปผลบนเบราว์เซอร์ พร้อมออกแบบให้มี Social share loop จนคนส่งแชร์ต่อและมีผู้เล่นจริงกว่า 120,000 คน",
+    tags: ["React", "Custom State Logic", "Growth Loop", "Interactive"],
+    link: "https://www.upskilleveryday.com/tools/disc",
     highlight: true,
   },
   {
-    id: 102,
+    id: 101,
     type: "tool",
-    category: "Interactive Tool",
-    title: "DISC Personality Assessment",
-    subtitle: "วิเคราะห์บุคลิกภาพ 4 แบบ",
+    category: "Interactive App",
+    title: "Wheel of Life",
+    subtitle: "เครื่องมือวิเคราะห์สมดุลชีวิต 8 มิติ",
     description:
-      "แบบประเมินส่วนใหญ่น่าเบื่อและไม่ Actionable — ผมเลยสร้างขึ้นมาเอง ฉบับภาษาไทย Interactive มีผู้ใช้จริงกว่า 120,000 คน feedback ส่วนใหญ่บอกว่าผลแม่น",
-    tags: ["DISC", "Personality", "Self-Dev"],
-    link: "https://www.upskilleveryday.com/tools/disc",
+      "เว็บแอปพลิเคชันที่ช่วยให้ผู้ใช้งานลากประเมินสมดุลชีวิต 8 ด้าน โดยพล็อตผลเป็น Radar Chart ด้วยเทคนิค SVG มีคนคลิกเข้ามาเล่นวัดสมดุลชีวิตตัวเองเรื่อยๆ บนออนไลน์",
+    tags: ["Next.js", "SVG Radar Chart", "Responsive UI", "Interactive"],
+    link: "https://www.upskilleveryday.com/tools/wheel-of-life",
     highlight: true,
   },
   {
     id: 103,
     type: "tool",
-    category: "Interactive Tool",
+    category: "Interactive App",
     title: "Money Avatar",
-    subtitle: "สไตล์การเงินของคุณคืออะไร?",
+    subtitle: "แบบทดสอบสไตล์การเงินเฉพาะบุคคล",
     description:
-      "เครื่องมือวิเคราะห์ Money Personality ของผู้ใช้ แบ่งออกเป็น Avatar หลายแบบตาม money mindset และพฤติกรรมทางการเงิน พร้อมแผนพัฒนาแต่ละ type",
-    tags: ["Finance", "Money Mindset", "Interactive"],
+      "เครื่องมือวิเคราะห์ลักษณะนิสัยทางการเงินของผู้ใช้ พร้อมหน้าจอผลลัพธ์สไตล์ Avatar แนะนำแนวทางการจัดการเงินผ่านการจำลองเหตุการณ์และ Dynamic Branching logic",
+    tags: ["TypeScript", "Conditional Logic", "FinTech Concept"],
     link: "https://www.upskilleveryday.com/tools/money-avatar",
   },
   {
     id: 104,
     type: "tool",
-    category: "Interactive Tool",
+    category: "Interactive App",
     title: "Library of Souls",
-    subtitle: "ค้นหาตัวตนผ่านหนังสือ",
+    subtitle: "ระบบค้นหาหนังสือและเนื้อหาเฉพาะตัว",
     description:
-      "Tool แนะนำหนังสือตามบุคลิกภาพและเป้าหมายของผู้ใช้ เชื่อมโยง reading list กับ self-development journey แบบ personalized",
-    tags: ["Reading", "Personality", "Curation"],
+      "แอปพลิเคชันแนะนำหนังสือตามเป้าหมายและการพัฒนาของแต่ละคน ดึงข้อมูลผ่าน Database Schema ที่ออกแบบมาจัดเก็บบันทึกประเภทหนังสือพฒนาตนเอง",
+    tags: ["Database Design", "Personalization", "Data Fetching"],
     link: "https://www.upskilleveryday.com/tools/library-of-souls",
   },
   {
     id: 105,
     type: "tool",
-    category: "Interactive Tool",
+    category: "Interactive App",
     title: "คมสัดสัด",
-    subtitle: "สร้างคำคมตามความรู้สึกของคุณ",
+    subtitle: "เครื่องมือสร้างภาพคำคมตามอารมณ์ผู้ใช้",
     description:
-      "Interactive Tool ที่ช่วยให้ผู้ใช้สร้างคำคมที่ตรงกับความรู้สึกในแต่ละช่วงเวลา — เปลี่ยนอารมณ์และประสบการณ์ให้กลายเป็นถ้อยคำที่โดนใจ แบบ personalized",
-    tags: ["Creative", "Self-Expression", "Interactive"],
+      "แอปพลิเคชันสำหรับเจเนอเรตและแชร์รูปภาพคำคม ทำงานโดยใช้ Canvas API เจนภาพฝั่ง Client-side เพื่อให้ผู้ใช้กดดาวน์โหลดเป็นไฟล์รูปภาพได้รวดเร็ว",
+    tags: ["Canvas/SVG API", "Client Export", "Frontend Logic"],
     link: "https://www.upskilleveryday.com/tools/khomsatsat",
   },
 
@@ -90,12 +90,12 @@ const portfolioItems: PortfolioItem[] = [
   {
     id: 201,
     type: "thread",
-    category: "X Thread",
-    title: "ทำไม DISC Tool ของผมถึงเวิร์ก — กระบวนการออกแบบ Interaction จาก 0",
-    subtitle: "Tool Design · User Experience · Iteration",
+    category: "Tech & Growth Thread",
+    title: "เล่ากระบวนการสร้าง DISC Tool จากศูนย์จนมีผู้ใช้งานจริง 120,000 คน",
+    subtitle: "Idea · UX Design · Social Sharing Loop",
     description:
-      "แบบประเมินส่วนใหญ่น่าเบื่อและ Generic เกินไป — Thread นี้เล่ากระบวนการสร้าง DISC Tool ตั้งแต่ Zero: ออกแบบ UX ใหม่ทั้งหมด, วาง Logic ให้ Actionable, เทสกับ Real Users จนได้ผลที่คนแชร์ต่อ",
-    tags: ["DISC", "Product Design", "Interaction"],
+      "แชร์เบื้องหลังการแก้ปัญหาแบบสอบถามทั่วไปที่คนมักทำแล้วเบื่อ โดยดีไซน์ UX ใหม่ เขียนโค้ดรัน Logic คำนวณฝั่ง Client และทำรูปภาพพรีวิวให้แชร์ต่อง่ายจนได้ 3.3M views บน X",
+    tags: ["UX Engineering", "Product Design", "Viral Loops"],
     link: "https://x.com/FuiiThanawat/status/2049128393728475587",
     views: "3.3M",
     highlight: true,
@@ -103,12 +103,12 @@ const portfolioItems: PortfolioItem[] = [
   {
     id: 202,
     type: "thread",
-    category: "X Thread",
-    title: "Side Hustle ที่ทำให้คนส่วนใหญ่ล้มเหลว — และวิธีที่ถูกต้อง",
-    subtitle: "Side Hustle · Income · Solopreneur",
+    category: "Product Growth Thread",
+    title: "Side Hustle Framework สำหรับผู้เริ่มต้นทำผลิตภัณฑ์เทคโนโลยี",
+    subtitle: "Systems Thinking · Business Strategy · Product Development",
     description:
-      "Thread วิเคราะห์ว่าทำไมคนที่ทำ Side Hustle ส่วนใหญ่ถึงเลิกกลางทาง — พร้อม Framework เลือก Side Hustle ที่เหมาะกับ Strength และ Lifestyle ของตัวเอง",
-    tags: ["Side Hustle", "Career", "Income"],
+      "สรุปและวิเคราะห์ Framework การเลือกและพัฒนา Side Project ให้ประสบความสำเร็จเชิงพาณิชย์ โดยประเมินจากทรัพยากร ความถนัด และความต้องการตลาดเพื่อลดความเสี่ยงล้มเหลว",
+    tags: ["Systems Thinking", "Business Strategy", "Product Launch"],
     link: "https://x.com/FuiiThanawat/status/2049128393728475587",
     views: "2.5M",
     highlight: true,
@@ -116,12 +116,12 @@ const portfolioItems: PortfolioItem[] = [
   {
     id: 203,
     type: "thread",
-    category: "X Thread",
-    title: "La Glace ขายแค่ไอศกรีม แต่ทำไมคนต่อคิวชั่วโมง? Brand Analysis",
-    subtitle: "Brand Strategy · Customer Experience · Storytelling",
+    category: "Business Strategy Thread",
+    title: "La Glace Brand Analysis: กลยุทธ์ Customer Experience ในโลกการตลาด",
+    subtitle: "Marketing Psychology · UX Strategy · Community Building",
     description:
-      "Thread วิเคราะห์ Brand La Glace ว่าทำไมถึงสร้าง Cult Following ได้ — ตั้งแต่ Product Design, Pricing Psychology, Social Proof ไปจนถึง Scarcity Marketing ที่แทบไม่ต้องโฆษณา",
-    tags: ["Brand Analysis", "Marketing", "Strategy"],
+      "วิเคราะห์แบรนด์บิวตี้ไทยที่เติบโตอย่างรวดเร็ว ถอดรหัสจิตวิทยาความต้องการของลูกค้าและการสร้าง Cult Following ที่สามารถประยุกต์ใช้กับการออกแบบซอฟต์แวร์ที่ผู้ใช้หลงรัก",
+    tags: ["Marketing Psychology", "UX Strategy", "Brand Analysis"],
     link: "https://x.com/FuiiThanawat/status/2049128393728475587",
     views: "1.1M",
     highlight: true,
@@ -129,48 +129,48 @@ const portfolioItems: PortfolioItem[] = [
   {
     id: 204,
     type: "thread",
-    category: "X Thread",
-    title: "Case Study น้องวิน: บทเรียนที่แพงที่สุดจากการทำ Content",
-    subtitle: "Case Study · Lesson Learned · Creator Journey",
+    category: "Case Study Thread",
+    title: "Case Study: บทเรียนและข้อผิดพลาดสำคัญในการพัฒนาโปรดักต์เข้าตลาด",
+    subtitle: "Product-Market Fit · Lesson Learned · Analytics",
     description:
-      "Thread เล่า Case Study จริงของน้องวิน — Creator ที่ทำทุกอย่างถูกต้องตามสูตรแต่ยังล้มเหลว เจาะลึกว่าเกิดอะไรขึ้นและบทเรียนที่คน Content Creator ทุกคนต้องรู้",
-    tags: ["Case Study", "Content", "Creator"],
+      "แชร์บทเรียนราคาแพงจากการพัฒนาโปรดักต์ที่ถูกต้องตามตำราแต่ยังไม่ตอบโจทย์ตลาด เจาะลึกการตรวจสอบพฤติกรรมผู้ใช้เพื่อหาจุดบกพร่องที่แท้จริงและแนวทาง pivot",
+    tags: ["Product-Market Fit", "Analytics", "Lessons Learned"],
     link: "https://x.com/FuiiThanawat/status/2049128393728475587",
     views: "1M",
   },
   {
     id: 205,
     type: "thread",
-    category: "X Thread",
-    title: "ความเชื่อผิดๆ เรื่องการเงินที่คนไทยยังเชื่ออยู่",
-    subtitle: "Personal Finance · Money Mindset · Financial Literacy",
+    category: "Business Mindset Thread",
+    title: "Debunk: ความเข้าใจผิดเรื่องการสร้างความมั่นคงทางการเงินในยุคดิจิทัล",
+    subtitle: "Financial Literacy · Systems Thinking · Money Mindset",
     description:
-      "Thread Debunk ความเชื่อเรื่องเงินที่ถูกปลูกฝังมาตั้งแต่เด็ก — ทำไมสูตร 'ทำงานขยัน + ออมเงิน' ถึงไม่พออีกต่อไป และ Mindset ที่ควรมีแทน",
-    tags: ["Finance", "Money Mindset", "Thai"],
+      "วิเคราะห์โครงสร้างทางการเงินแบบ First-Principles เพราะเหตุใดหลักสูตรเดิมๆ ถึงใช้ไม่ได้ผลในยุคเศรษฐกิจสร้างสรรค์ และ Mindset ที่จำเป็นในการพัฒนารายได้หลายช่องทาง",
+    tags: ["Systems Thinking", "Financial Literacy", "Economics"],
     link: "https://x.com/FuiiThanawat/status/2049128393728475587",
     views: "628K",
   },
   {
     id: 206,
     type: "thread",
-    category: "X Thread",
-    title: "Money Mindset ที่คนรวยมีแต่ไม่ค่อยพูดถึง",
-    subtitle: "Wealth Psychology · Abundance Mindset · Behavior",
+    category: "Growth Mindset Thread",
+    title: "Money Mindset & Wealth Psychology ของผู้สร้างผลิตภัณฑ์ที่ยั่งยืน",
+    subtitle: "Risk Tolerance · Growth Mindset · Business Psychology",
     description:
-      "Thread สำรวจ Mindset เรื่องเงินที่คนมี Wealth ระดับสูงมี — ความแตกต่างใน Belief System, Risk Tolerance และวิธีมอง 'ค่าของเงิน' ที่ต่างจาก Average Person",
-    tags: ["Money Mindset", "Wealth", "Psychology"],
+      "สำรวจชุดความคิดของผู้ประกอบการด้านเทคโนโลยี (Tech Solopreneur) เกี่ยวกับการจัดการความเสี่ยง การวิเคราะห์มูลค่าซอฟต์แวร์ และการลงทุนเพื่อการเติบโตระยะยาว",
+    tags: ["Growth Mindset", "Wealth Psychology", "Business"],
     link: "https://x.com/FuiiThanawat/status/2049128393728475587",
     views: "850K",
   },
   {
     id: 207,
     type: "thread",
-    category: "X Thread",
-    title: "สิ่งที่เรียนรู้จากการขายออนไลน์ครั้งแรก — ผิดพลาดทุกอย่างที่เป็นไปได้",
-    subtitle: "E-Commerce · Online Selling · First Experience",
+    category: "Product Operations Thread",
+    title: "ถอดบทเรียนจากการขายออนไลน์ครั้งแรกและการประยุกต์ใช้กับเทคโปรเจกต์",
+    subtitle: "Pricing Strategy · E-Commerce Operations · Analytics",
     description:
-      "Thread เล่าประสบการณ์ขายออนไลน์ครั้งแรกแบบตรงไปตรงมา — เลือกสินค้าผิด, ตั้งราคาผิด, Marketing ผิด พร้อมสิ่งที่ควรทำต่างออกไปถ้าเริ่มใหม่ได้",
-    tags: ["E-Commerce", "Online Selling", "Lesson Learned"],
+      "เล่าความผิดพลาดเชิงระบบของการทำ E-Commerce: การตั้งราคาที่ไม่สอดรับกับต้นทุนแฝง การทำการตลาดไร้จุดหมาย พร้อมวิเคราะห์ทางแก้โดยการนำ Data-Driven Operations มาใช้",
+    tags: ["E-Commerce", "Data-Driven Ops", "Strategy"],
     link: "https://x.com/FuiiThanawat/status/2049128393728475587",
     views: "605K",
   },
@@ -179,12 +179,12 @@ const portfolioItems: PortfolioItem[] = [
   {
     id: 1,
     type: "article",
-    category: "Self-Development",
-    title: "Let Them Theory: เมื่อ 'ปล่อยให้เขาทำ' คือทางเลือกที่ฉลาดที่สุด",
-    subtitle: "Mel Robbins' framework แปลเป็นภาษาชีวิตจริง",
+    category: "Growth Mindset",
+    title: "Let Them Theory: เมื่อการ 'ปล่อยผ่าน' คือกลยุทธ์การทำทีมที่ทรงพลัง",
+    subtitle: "Management Strategy · Mental Models",
     description:
-      "บทความวิเคราะห์ Let Them Theory ของ Mel Robbins ว่าทำไมการหยุดควบคุมผู้อื่นถึงทำให้ชีวิตดีขึ้น พร้อมตัวอย่างการนำไปใช้ในที่ทำงานและความสัมพันธ์",
-    tags: ["Psychology", "Self-Dev", "Mel Robbins"],
+      "บทความประยุกต์ใช้ทฤษฎีจิตวิทยา Let Them Theory ในการทำงานร่วมกับทีมผู้พัฒนาและนักออกแบบ เพื่อปลดล็อกอิสระในการคิดและลดปัญหา Micro-management",
+    tags: ["Mental Models", "Team Management", "Psychology"],
     link: "https://www.upskilleveryday.com/library/let-them-theory",
     readTime: "7 นาที",
     highlight: true,
@@ -192,24 +192,24 @@ const portfolioItems: PortfolioItem[] = [
   {
     id: 2,
     type: "article",
-    category: "Career",
-    title: "บีบ 10 ปีประสบการณ์ให้อยู่ใน 10 นาที",
-    subtitle: "Learning shortcut สำหรับคนอยากเติบโตเร็ว",
+    category: "Continuous Learning",
+    title: "บีบ 10 ปีประสบการณ์การเรียนรู้ให้เหลือ 10 นาที",
+    subtitle: "Learning Acceleration · Knowledge Sharing",
     description:
-      "เทคนิคสกัด insight จากประสบการณ์คนอื่น ทำให้การเรียนรู้ accelerate ได้เร็วกว่าการลองผิดลองถูกเอง แบบ framework ที่นำไปใช้ได้จริง",
-    tags: ["Career Growth", "Learning", "Productivity"],
+      "เทคนิคการดึงสาระและแกนความรู้จากผู้เชี่ยวชาญเพื่อเรียนรู้สิ่งใหม่ๆ ได้อย่างรวดเร็ว (Accelerated Learning) ซึ่งจำเป็นมากสำหรับการปรับตัวกับเทคโนโลยีเกิดใหม่",
+    tags: ["Accelerated Learning", "Knowledge Sharing", "Productivity"],
     link: "https://www.upskilleveryday.com/library/10-years-experience",
     readTime: "8 นาที",
   },
   {
     id: 3,
     type: "article",
-    category: "Life Design",
-    title: "Life Design vs Career Planning: ต่างกันอย่างไรและทำไมต้องสนใจ",
-    subtitle: "Stanford's Life Design framework สำหรับคนไทย",
+    category: "Product & Career Design",
+    title: "Life Design vs Career Planning: ออกแบบชีวิตและทักษะการทำงานด้วย Agile",
+    subtitle: "Stanford Design Thinking localized for developers",
     description:
-      "เปรียบเทียบ 2 แนวคิดที่คนมักสับสน Life Design คือการออกแบบชีวิตจาก values ส่วน Career Planning คือการวางแผนอาชีพจาก market — และทำไมคุณต้องการทั้งสองอย่าง",
-    tags: ["Life Design", "Career", "Stanford"],
+      "นำแนวคิด Design Thinking จากมหาวิทยาลัยสแตนฟอร์ดมา Localization เพื่อใช้ออกแบบเส้นทางทักษะทางอาชีพ โดยมองอาชีพและชีวิตเป็นสิ่งที่จะต้องหมั่นทดลองและประเมินผล",
+    tags: ["Design Thinking", "Agile Mindset", "Career Design"],
     link: "https://www.upskilleveryday.com/library/life-design-vs-career",
     readTime: "9 นาที",
     highlight: true,
@@ -217,96 +217,34 @@ const portfolioItems: PortfolioItem[] = [
   {
     id: 4,
     type: "article",
-    category: "Business",
-    title: "One Person Business: ธุรกิจคนเดียวที่สร้าง Impact ได้จริง",
-    subtitle: "Model ธุรกิจที่เหมาะกับยุค Creator Economy",
+    category: "Business Model",
+    title: "One Person Tech Business: การสร้างซอฟต์แวร์และธุรกิจที่สร้างผลลัพธ์ด้วยตัวคนเดียว",
+    subtitle: "Solopreneur Economy · Scaling with AI & Automation",
     description:
-      "วิเคราะห์โมเดล One Person Business ว่าทำไมถึงเหมาะกับยุคนี้ พร้อม framework สร้างรายได้หลายทางโดยไม่ต้องมีทีมใหญ่ — ดึง case studies จากต่างประเทศมา localize",
-    tags: ["Business", "Solopreneur", "Creator Economy"],
+      "เจาะลึกรูปแบบธุรกิจ One-Person Business ที่ขยายสเกลความเร็วในการพัฒนาและฐานลูกค้าโดยการนำ Generative AI, Cloud Services, และ Automation Tools มาเพิ่มพลังผลผลิต",
+    tags: ["Solopreneur", "AI Automation", "Scale"],
     link: "https://www.upskilleveryday.com/library/one-person-business",
     readTime: "10 นาที",
   },
   {
-    id: 5,
-    type: "article",
-    category: "Self-Development",
-    title: "คู่มือ DISC สำหรับคนอยากอัพสกิล: รู้จักตัวเองก่อนพัฒนาตัวเอง",
-    subtitle: "DISC deep-dive ฉบับ practical",
-    description:
-      "ไกด์ DISC ฉบับครบจบ อธิบายทั้ง 4 สไตล์ (Dominance, Influence, Steadiness, Conscientiousness) พร้อม insight ว่าแต่ละแบบควรพัฒนาอะไร และทำงานร่วมกับคนต่าง type อย่างไร",
-    tags: ["DISC", "Leadership", "Team Dynamics"],
-    link: "https://www.upskilleveryday.com/library/disc-upskill-guide",
-    readTime: "12 นาที",
-    highlight: true,
-  },
-  {
-    id: 6,
-    type: "article",
-    category: "Finance",
-    title: "10 วิธีสร้างความมั่งคั่งที่ทุกคนเริ่มได้วันนี้",
-    subtitle: "Wealth building สำหรับคนทั่วไป ไม่ต้องรวยก่อน",
-    description:
-      "สรุป 10 หลักการสร้างความมั่งคั่งที่ผ่านการทดสอบจากนักลงทุนและนักธุรกิจระดับโลก แปลงให้เป็นภาษาง่ายและ actionable สำหรับคนไทย",
-    tags: ["Finance", "Wealth", "Investment"],
-    link: "https://www.upskilleveryday.com/library/10-ways-to-grow-wealth",
-    readTime: "8 นาที",
-  },
-  {
-    id: 7,
-    type: "article",
-    category: "Leadership",
-    title: "ทำไมผู้นำที่ดีต้องการ DISC ทั้ง 4 แบบในทีม",
-    subtitle: "Team Composition ที่ชนะไม่ใช่ที่มีคนเก่งที่สุด",
-    description:
-      "วิเคราะห์ว่าทำไม Team ที่มี DISC หลากหลายถึง outperform ทีม star players — พร้อม framework จัดทีมและ leverage จุดแข็งแต่ละสไตล์อย่างเป็นระบบ",
-    tags: ["Leadership", "Team Building", "DISC"],
-    link: "https://www.upskilleveryday.com/library/why-leaders-need-all-4-disc-types",
-    readTime: "9 นาที",
-  },
-  {
     id: 8,
     type: "article",
-    category: "Business",
-    title: "ทำไม Engineer ถึงเก่งธุรกิจมากกว่าที่คนคิด",
-    subtitle: "First-Principles Thinking ในโลกธุรกิจ",
+    category: "Business Oriented Coding",
+    title: "ทำไม Engineer ถึงมีแนวโน้มสร้างและขับเคลื่อนธุรกิจได้โดดเด่น",
+    subtitle: "Systems Thinking · Problem Solving · Architecture",
     description:
-      "นำเสนอมุมมองใหม่ว่า Engineering Mindset (Systems Thinking, Root Cause Analysis, Iterative Testing) คือทักษะที่ทำให้ Engineer สร้างธุรกิจได้โดดเด่น",
-    tags: ["Business", "Engineering", "Mental Models"],
+      "วิเคราะห์ความเชื่อมโยงของ Engineering Mindset (Systems Thinking, Modular Design, Iterative Testing) กับการประกอบธุรกิจ ว่าชุดความคิดแบบวิศวกรส่งผลต่อความเร็วและความเสถียรของโมเดลธุรกิจอย่างไร",
+    tags: ["Systems Thinking", "Business Strategy", "Mental Models"],
     link: "https://www.upskilleveryday.com/library/why-engineers-excel-in-business",
     readTime: "7 นาที",
-  },
-  {
-    id: 9,
-    type: "article",
-    category: "Self-Development",
-    title: "ด้านมืดของบุคลิกภาพ DISC ที่คุณไม่เคยได้ยิน",
-    subtitle: "ทุก strength มี shadow ซ่อนอยู่",
-    description:
-      "เจาะลึก 'ด้านมืด' ของแต่ละ DISC type ที่มักไม่ถูกพูดถึงในคอร์ส — D ที่ domineering เกิน, I ที่ขาด follow-through, S ที่ passive-aggressive, C ที่ paralysis by analysis",
-    tags: ["DISC", "Psychology", "Self-Awareness"],
-    link: "https://www.upskilleveryday.com/library/dark-side-of-disc-personality",
-    readTime: "10 นาที",
-    highlight: true,
-  },
-  {
-    id: 10,
-    type: "article",
-    category: "Self-Development",
-    title: "สรุป Courage to Be Disliked: กล้าที่จะถูกเกลียด",
-    subtitle: "Adlerian Psychology เปลี่ยนมุมมองชีวิต",
-    description:
-      "สรุป + วิเคราะห์หนังสือ Courage to Be Disliked ของ Kishimi & Koga ผ่านมุมมอง Adlerian Psychology — ว่าทำไมการ 'ถูกเกลียด' ถึงอาจเป็นสัญญาณว่าคุณกำลังทำสิ่งที่ถูกต้อง",
-    tags: ["Book Summary", "Philosophy", "Adler"],
-    link: "https://www.upskilleveryday.com/library/courage-to-be-disliked-summary",
-    readTime: "11 นาที",
   },
 ];
 
 const filterTabs = [
   { key: "all", label: "ทั้งหมด", icon: null },
-  { key: "tool", label: "Products / Tools", icon: Wrench },
-  { key: "thread", label: "X Threads", icon: null, xIcon: true },
-  { key: "article", label: "บทความ", icon: FileText },
+  { key: "tool", label: "Interactive Apps", icon: Wrench },
+  { key: "thread", label: "Tech & Growth Threads", icon: null, xIcon: true },
+  { key: "article", label: "บทความแนวคิด", icon: FileText },
 ];
 
 export default function PortfolioSection() {
@@ -330,10 +268,10 @@ export default function PortfolioSection() {
             02 · Portfolio
           </span>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-white mb-4">
-            งานที่ผมทำ
+            ผลงานที่ผมสร้าง
           </h2>
           <p className="text-neutral-400 text-base max-w-xl">
-            ทั้งหมดนี้คือของจริงจาก{" "}
+            ทั้งหมดนี้คือผลิตภัณฑ์และคอนเทนต์จริงจาก{" "}
             <a
               href="https://www.upskilleveryday.com"
               target="_blank"
@@ -342,7 +280,7 @@ export default function PortfolioSection() {
             >
               upskilleveryday.com
             </a>{" "}
-            — Platform พัฒนาตนเองที่ผมสร้างและเขียน content เอง
+            — แพลตฟอร์มพัฒนาตนเองที่ผมออกแบบ พัฒนาระบบ และขยายฐานผู้ใช้ด้วยตนเอง
           </p>
         </div>
 
@@ -354,9 +292,9 @@ export default function PortfolioSection() {
             </div>
           </div>
           <div className="flex-1 min-w-0">
-            <p className="text-white font-semibold text-sm">อัพสกิลกับฟุ้ย · upskilleveryday.com</p>
+            <p className="text-white font-semibold text-sm">upskilleveryday.com</p>
             <p className="text-neutral-400 text-xs mt-0.5">
-              Platform พัฒนาตนเองครบวงจร — บทความ + Interactive Tools (DISC, Wheel of Life, Money Avatar ฯลฯ)
+              แพลตฟอร์มพัฒนาตนเองแบบ Interactive — รวมเครื่องมือทดสอบจิตวิทยา ระบบ XP Progression และบทความเชิงวิเคราะห์
             </p>
           </div>
           <div className="flex gap-4 flex-shrink-0 text-center">

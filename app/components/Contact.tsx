@@ -161,7 +161,7 @@ export default function Contact() {
                       onChange={(e) =>
                         setForm({ ...form, name: e.target.value })
                       }
-                      placeholder="คุณเคน นครินทร์"
+                      placeholder="ชื่อของคุณ (เช่น Tech Lead / HR)"
                       className="w-full bg-dark-700 border border-dark-400 rounded-lg px-4 py-2.5 text-white text-sm placeholder-neutral-600 focus:outline-none focus:border-brand-red/50 transition-colors"
                     />
                   </div>
@@ -176,7 +176,7 @@ export default function Contact() {
                       onChange={(e) =>
                         setForm({ ...form, email: e.target.value })
                       }
-                      placeholder="email@thestandard.co"
+                      placeholder="tech-hiring@company.com"
                       className="w-full bg-dark-700 border border-dark-400 rounded-lg px-4 py-2.5 text-white text-sm placeholder-neutral-600 focus:outline-none focus:border-brand-red/50 transition-colors"
                     />
                   </div>
@@ -280,11 +280,9 @@ export default function Contact() {
       {/* Footer */}
       <div className="mt-20 border-t border-dark-600/50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-neutral-600 text-xs">
-          <p>© 2567 ฟุ้ย · ธนวัฒน์ หล่อวิทยโอฬาร — สร้างด้วย Next.js &amp; Tailwind CSS</p>
+          <p>© 2567 ธนวัฒน์ หล่อวิทยโอฬาร (ฟุ้ย) — พัฒนาด้วย Next.js &amp; Tailwind CSS</p>
           <p>
-            Built for{" "}
-            <span className="text-neutral-500">The Standard / The Secret Sauce</span>{" "}
-            Application
+            Full Stack Developer Portfolio · AI &amp; Product Engineering
           </p>
         </div>
       </div>

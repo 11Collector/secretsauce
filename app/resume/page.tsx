@@ -48,21 +48,21 @@ export default function ResumePage() {
                   />
                 </div>
                 <div>
-                <div className="inline-flex items-center gap-2 px-2.5 py-1 bg-[#E50914]/15 border border-[#E50914]/25 rounded-full mb-3">
-                  <span className="w-1.5 h-1.5 bg-[#E50914] rounded-full" />
-                  <span className="text-[#E50914] text-[10px] font-semibold tracking-widest uppercase">
-                    Content Creator Application · The Standard / The Secret Sauce
-                  </span>
-                </div>
-                <h1 className="text-3xl font-bold leading-tight tracking-tight">
-                  ธนวัฒน์ หล่อวิทยโอฬาร
-                </h1>
-                <p className="text-[#A3A3A3] text-base mt-0.5">
-                  ฟุ้ย · Content Creator &amp; Platform Builder
-                </p>
-                <p className="text-[#E50914] text-sm font-medium mt-2">
-                  วิศวกรคอมพิวเตอร์ที่เอา Systems Thinking มาทำ Content ที่คนนำไปใช้จริง
-                </p>
+                  <div className="inline-flex items-center gap-2 px-2.5 py-1 bg-[#E50914]/15 border border-[#E50914]/25 rounded-full mb-3">
+                    <span className="w-1.5 h-1.5 bg-[#E50914] rounded-full" />
+                    <span className="text-[#E50914] text-[10px] font-semibold tracking-widest uppercase">
+                      Self-Taught Web Builder &amp; Creator Resume
+                    </span>
+                  </div>
+                  <h1 className="text-3xl font-bold leading-tight tracking-tight">
+                    ธนวัฒน์ หล่อวิทยโอฬาร
+                  </h1>
+                  <p className="text-[#A3A3A3] text-base mt-0.5">
+                    ธนวัฒน์ (ฟุ้ย) · Self-Taught Web Builder &amp; Creator
+                  </p>
+                  <p className="text-[#E50914] text-sm font-medium mt-2">
+                    วิศวกรคอมพิวเตอร์สายธุรกิจ (อดีต AE) ที่เรียนรู้เขียนเว็บด้วยตนเองและใช้ AI ช่วยสร้างโปรเจกต์ที่มีผู้เล่นออนไลน์จริง
+                  </p>
                 </div>
               </div>
 
@@ -107,18 +107,18 @@ export default function ResumePage() {
                 </div>
               </section>
 
-              {/* Content Stats */}
+              {/* Product Stats */}
               <section className="mb-4">
                 <h2 className="text-[9px] font-bold uppercase tracking-[0.15em] text-[#E50914] mb-2 border-b border-[#E50914]/20 pb-1">
-                  Content Stats
+                  Product Stats
                 </h2>
                 <div className="flex flex-col gap-1.5">
                   {[
-                    { n: "~10M", l: "Total X Views" },
-                    { n: "7", l: "Viral Threads" },
+                    { n: "120K+", l: "Users (แบบประเมิน)" },
+                    { n: "5+", l: "Interactive Apps" },
+                    { n: "10M+", l: "Content Reach (X)" },
                     { n: "3.3M", l: "Top Thread Views" },
-                    { n: "5", l: "Interactive Tools" },
-                    { n: "30+", l: "บทความ Self-Dev" },
+                    { n: "30+", l: "Tech/Self-Dev Articles" },
                   ].map((s) => (
                     <div key={s.l} className="flex items-center justify-between">
                       <span className="text-[11px] text-[#555]">{s.l}</span>
@@ -135,14 +135,14 @@ export default function ResumePage() {
                 </h2>
                 <div className="flex flex-col gap-1">
                   {[
-                    "X / Social Threads",
-                    "Business Analysis",
-                    "Research & Synthesis",
-                    "Interactive UX Design",
-                    "Content Structuring",
-                    "Data-Driven Storytelling",
-                    "Trend Spotting",
-                    "Narrative Design",
+                    "AI-Assisted Coding",
+                    "Next.js & React.js",
+                    "TypeScript & Tailwind",
+                    "Firebase Integration",
+                    "Cloud Firestore (NoSQL)",
+                    "Content & Marketing",
+                    "Product Sharing Loop",
+                    "Structured Solver",
                   ].map((s) => (
                     <div key={s} className="flex items-center gap-1.5">
                       <span className="w-1 h-1 bg-[#E50914] rounded-full flex-shrink-0" />
@@ -178,20 +178,20 @@ export default function ResumePage() {
                 </div>
               </section>
 
-              {/* Technical */}
+              {/* Tools & Infra */}
               <section>
                 <h2 className="text-[9px] font-bold uppercase tracking-[0.15em] text-[#E50914] mb-3 border-b border-[#E50914]/20 pb-1">
-                  Technical
+                  เครื่องมือและอินฟราฯ
                 </h2>
                 <div className="flex flex-wrap gap-1">
-                  {["Next.js", "React", "TypeScript", "Tailwind"].map((t) => (
+                  {["Git/GitHub", "Vercel", "Firebase", "Cloud Firestore", "LLMs (Gemini/Claude)", "SEO Tools"].map((t) => (
                     <span key={t} className="px-1.5 py-0.5 bg-[#E8E8E8] text-[9px] text-[#555] rounded">
                       {t}
                     </span>
                   ))}
                 </div>
                 <p className="text-[9px] text-[#888] mt-2">
-                  Built upskilleveryday.com from scratch
+                  พัฒนาและดูแลระบบ upskilleveryday.com ทั้งหมดด้วยตนเอง
                 </p>
               </section>
             </aside>
@@ -205,17 +205,10 @@ export default function ResumePage() {
                   เกี่ยวกับผม
                 </h2>
                 <p className="text-[11px] text-[#333] leading-relaxed">
-                  จบวิศวกรรมคอมพิวเตอร์จากจุฬาฯ แล้วเริ่มต้นอาชีพเป็น Account Executive
-                  ที่ตลาดหลักทรัพย์แห่งประเทศไทย — ก่อนจะ pivot มาทำ Content Creator เต็มตัว
-                  เพราะเชื่อว่า{" "}
-                  <strong className="text-[#111]">
-                    ไอเดียที่ดีสื่อสารไม่เก่ง ก็ไม่ต่างจากไม่มีไอเดีย
-                  </strong>
+                  วิศวกรคอมพิวเตอร์สายธุรกิจจากจุฬาฯ (อดีต AE) ที่ศึกษาเรียนรู้การเขียนเว็บด้วยตนเอง โดยใช้อภิสิทธิ์ความช่วยเหลือจาก AI ในการไกด์เขียนโค้ดและช่วยแก้บั๊ก เพื่อสร้างโปรเจกต์ออนไลน์ที่ใช้งานง่ายและดึงดูดผู้เล่น
                 </p>
                 <p className="text-[11px] text-[#333] leading-relaxed mt-2">
-                  ผมเอา Systems Thinking จากวิศวะมาใช้ทำ Content — วิเคราะห์ก่อน เขียนทีหลัง
-                  สร้าง Interactive Tools 5 ชิ้นบน upskilleveryday.com
-                  และ Viral X Threads รวม ~10M Views ใน 7 Threads
+                  ผมเริ่มการทำงานจากการเป็น Account Executive (AE) ดูแลระบบและลูกค้าที่ Settrade ก่อนจะใช้เวลาว่างลองศึกษาเรียนรู้เขียนเว็บ และพัฒนาโปรเจกต์ของตัวเองอย่าง upskilleveryday.com จนสร้างเครื่องมือ Interactive หลากหลายชิ้นที่มีคนเข้ามาเล่นและบอกต่อสะสมกว่า 120,000 คน พร้อมทำคอนเทนต์ X มีคนอ่านกว่า 10M+ Views
                 </p>
               </section>
 
@@ -230,10 +223,10 @@ export default function ResumePage() {
                   <div className="flex items-start justify-between gap-2 mb-1">
                     <div>
                       <h3 className="font-bold text-[12px] text-[#111]">
-                        Content Creator &amp; Platform Builder
+                        Web Creator &amp; Builder (Self-Taught)
                       </h3>
                       <p className="text-[10px] text-[#E50914] font-medium">
-                        upskilleveryday.com · Self-Owned
+                        upskilleveryday.com · Personal Side Project (พัฒนาและเรียนรู้ด้วยตนเอง)
                       </p>
                     </div>
                     <span className="text-[9px] text-[#888] flex-shrink-0 mt-0.5">
@@ -242,10 +235,10 @@ export default function ResumePage() {
                   </div>
                   <ul className="flex flex-col gap-1 mt-2">
                     {[
-                      "สร้าง Interactive Self-Development Tools 5 ชิ้น (DISC Assessment, Wheel of Life, Money Avatar ฯลฯ) จาก 0 ด้วย Next.js + TypeScript",
-                      "เขียนบทความเชิงวิเคราะห์ธุรกิจและ Self-Development 30+ บทความ",
-                      "สร้าง Viral X Threads รวม ~10M Total Views ใน 7 Threads — สูงสุด 3.3M Views (DISC Tool Thread)",
-                      "ออกแบบ Content Strategy ทั้ง Short-form Threads, บทความเชิงลึก, และ Interactive Format",
+                      "พัฒนาเว็บแอปพลิเคชันด้วย Next.js, React, TypeScript และ Tailwind CSS ให้รองรับหน้าจอมือถือและโหลดหน้าเว็บได้รวดเร็ว",
+                      "สร้างแบบทดสอบจิตวิทยา DISC คำนวณคะแนนแบบ Real-time บนบราวเซอร์ และแสดงผลลัพธ์เป็นภาพ Radar Chart ด้วยกราฟิกแบบ SVG",
+                      "ทำระบบพรีวิวและปุ่มส่งต่อโซเชียลเพื่อชวนให้ผู้เล่นเกิดความอยากนำไปแชร์ต่อ จนมียอดผู้เข้ามากรอกประเมินจริงออนไลน์สะสมกว่า 120,000 คน",
+                      "เรียนรู้และใช้งานเครื่องมือ Generative AI (เช่น Gemini, Claude) เพื่อช่วยเขียนโครงสร้างโค้ด ค้นหารูรั่วของโปรแกรม และช่วยไล่บั๊กในการรันงานส่งโปรดักต์ตัวอย่างออกสู่ตลาดได้อย่างรวดเร็ว",
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-1.5">
                         <span className="w-1 h-1 bg-[#E50914] rounded-full flex-shrink-0 mt-[5px]" />
@@ -260,7 +253,7 @@ export default function ResumePage() {
                   <div className="flex items-start justify-between gap-2 mb-1">
                     <div>
                       <h3 className="font-bold text-[12px] text-[#111]">
-                        Marketing &amp; App Operations
+                        Account Executive (AE)
                       </h3>
                       <p className="text-[10px] text-[#666] font-medium">
                         Settrade (ในเครือตลาดหลักทรัพย์แห่งประเทศไทย)
@@ -272,9 +265,9 @@ export default function ResumePage() {
                   </div>
                   <ul className="flex flex-col gap-1 mt-2">
                     {[
-                      "ทำการตลาดและดูแล Streaming App ของ Settrade",
-                      "จัดทำ User Manual สำหรับการใช้งาน App ให้ผู้ใช้เข้าใจง่าย",
-                      "ได้สัมผัสโลก Capital Markets และ Financial Product จากการทำงานจริง",
+                      "ดูแลความสัมพันธ์และประสานงานกับกลุ่มลูกค้าโบรกเกอร์และสถาบันการเงินในการใช้งานระบบเทรดและแอปพลิเคชัน Streaming",
+                      "รวบรวมความต้องการ (Requirements) และ Pain Points ของผู้ใช้งานจริงเพื่อนำมาสรุปและประสานงานร่วมกับทีมพัฒนาระบบ (Tech Team) เพื่อปรับปรุงฟีเจอร์",
+                      "นำเสนอขายบริการระบบเทรดของบริษัท และจัดทำคู่มือการใช้งานระบบ (User Manual) เพื่อช่วยอธิบายกระบวนการใช้งานโปรดักต์การเงินให้เข้าใจง่าย",
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-1.5">
                         <span className="w-1 h-1 bg-[#555] rounded-full flex-shrink-0 mt-[5px]" />
@@ -311,16 +304,13 @@ export default function ResumePage() {
                 </div>
               </section>
 
-              {/* Why The Secret Sauce */}
+              {/* Career Goal */}
               <section>
                 <h2 className="text-[9px] font-bold uppercase tracking-[0.15em] text-[#E50914] mb-3 border-b border-[#E50914]/20 pb-1">
-                  ทำไมถึงอยากร่วมงานกับ The Secret Sauce
+                  เป้าหมายอาชีพ (Career Goal)
                 </h2>
                 <p className="text-[11px] text-[#333] leading-relaxed">
-                  The Secret Sauce คือ Podcast ที่ผมฟังและเรียนรู้จริงๆ ไม่ใช่แค่พูดเพื่อสมัครงาน
-                  สไตล์การเจาะลึก Founder Mindset ตรงกับวิธีที่ผมเสพและสร้าง Content มาตลอด
-                  — ผมอยากเอา Perspective ของคนที่ผ่านทั้ง Engineering, Capital Markets, และ
-                  Creator Economy มาช่วยสร้างเนื้อหาที่ลึกกว่าและ Actionable กว่าที่มีอยู่ในตลาด
+                  ผมมีความตั้งใจที่จะนำความรู้ด้านการเขียนโค้ดบวกกับความคุ้นเคยในการใช้ AI ช่วยพัฒนาโปรแกรม มาทำงานสร้างสรรค์ผลิตภัณฑ์ เว็บแอปพลิเคชัน หรือเครื่องมือที่ผู้ใช้งานได้รับประโยชน์และพึงพอใจในการเข้าใช้งาน พร้อมเรียนรู้เทคโนโลยีใหม่ๆ และสอดแทรกมุมคิดด้านคอนเทนต์หรือการแนะนำปากต่อปากเพื่อเป็นแรงเสริมขับเคลื่อนทีม
                 </p>
               </section>
             </main>

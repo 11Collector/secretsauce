@@ -14,83 +14,83 @@ type Requirement = {
 const requirements: Requirement[] = [
   {
     id: 1,
-    jd: "สร้างและพัฒนาเนื้อหาคุณภาพสูงในหลากหลายฟอร์แมต (บทความ วิดีโอ พอดแคสต์)",
-    match: "Multi-Format Creator",
+    jd: "เชี่ยวชาญด้าน Frontend Development (React, Next.js, TypeScript, CSS)",
+    match: "เขียนหน้าเว็บ (Frontend)",
     detail:
-      "ผมสร้างเนื้อหาทั้งในรูปแบบบทความเชิงวิเคราะห์ธุรกิจ X Threads และ Interactive Tools โดยปรับ tone และโครงสร้างให้เหมาะกับแต่ละ format — พร้อมเรียนรู้ format ใหม่ที่ทีมต้องการ",
-    tags: ["บทความ", "X Threads", "Interactive Tools", "Multi-Format"],
+      "ผมสามารถเขียนและสร้างหน้าเว็บทั่วไปด้วย React, Next.js และปรับแต่ง CSS ให้ดูดี ใช้งานได้ดีทั้งบนคอมพิวเตอร์และมือถือเพื่อให้ผู้ใช้งานเปิดเล่นได้สะดวกสบาย",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Frontend"],
   },
   {
     id: 2,
-    jd: "มีความสนใจและความรู้ในด้านธุรกิจ การเงิน หรือการพัฒนาตนเอง",
-    match: "Business & Self-Dev Passion",
+    jd: "เข้าใจระบบการเก็บข้อมูลและการจัดการ Database ทั่วไป",
+    match: "ระบบเก็บข้อมูล (Firebase)",
     detail:
-      "ผมเรียนวิศวะจุฬา แล้วไปทำ Marketing และดูแล App ที่ Settrade (ในเครือ SET) — ก่อนจะ pivot มาทำ Content เต็มตัว เส้นทางนี้ทำให้ผมเข้าใจโลกธุรกิจและการเงินแบบที่ลงมือสัมผัสจริง ไม่ใช่แค่อ่านมาจากหนังสือ",
-    tags: ["Business", "Finance", "Settrade", "Engineering", "Self-Development"],
+      "ผมคุ้นเคยและเข้าใจการใช้งาน Firebase (เช่น Cloud Firestore) ในการเก็บบันทึกข้อมูลคะแนนและสถิติการเล่นแบบสอบถามของผู้ใช้ เพื่อนำมาแสดงผลได้ถูกต้อง",
+    tags: ["Firebase", "Cloud Firestore", "NoSQL", "Database"],
   },
   {
     id: 3,
-    jd: "วิจัยและวิเคราะห์ข้อมูลเพื่อสร้างเนื้อหาที่ลึกซึ้งและน่าเชื่อถือ",
-    match: "Research-Driven Creator",
+    jd: "มีความเชี่ยวชาญในการใช้ Generative AI (LLMs) เพื่อช่วยในการพัฒนาโค้ด",
+    match: "ใช้ AI ช่วยเขียนโค้ด",
     detail:
-      "วิศวกรไม่เดา — วิศวกรหาข้อมูล แล้ว validate นิสัยนี้ติดมาถึงการทำ Content ผมไม่เริ่มเขียนจนกว่าจะ Cross-reference ข้อมูลจากหลายแหล่ง ทั้ง Research Papers, Industry Reports, และ Primary Sources ก่อนสังเคราะห์เป็น narrative ที่อ่านง่ายและเชื่อถือได้",
-    tags: ["Research", "Data Analysis", "Systems Thinking", "Synthesis"],
+      "ผมไม่ได้จำโค้ดได้ทั้งหมด แต่ผมชอบใช้ AI (เช่น Gemini, Claude) มาช่วยไกด์โครงสร้างระบบ ค้นหาบั๊ก และเขียนโค้ดทดสอบ เพื่อย่นเวลาการทำงานและแก้ข้อจำกัดของตัวเอง",
+    tags: ["AI Tools", "Gemini & Claude", "Problem Solving", "Efficiency"],
   },
   {
     id: 4,
-    jd: "สร้างเนื้อหาได้หลากหลายรูปแบบ ไม่จำกัดแค่บทความ",
-    match: "Format Flexibility",
+    jd: "มีความสนใจและความเข้าใจในโลกธุรกิจ การลงทุน และการเงิน",
+    match: "เข้าใจความต้องการธุรกิจ",
     detail:
-      "ผมทำงานได้กับ Short-form social threads, บทความเชิงลึก, Interactive Tools และ Content สำหรับหลายช่องทาง ปรับโทนและความยาวได้ตามกลุ่มเป้าหมาย — ไม่ยึดติดกับ format เดียว",
-    tags: ["Short-form", "บทความ", "Interactive", "Social Media"],
+      "จากประสบการณ์การทำงานเป็น Account Executive (AE) ดูแลระบบเทรดและลูกค้าสถาบันการเงินที่ Settrade ทำให้ผมเข้าใจมุมมองธุรกิจ การประสานงาน และเป้าหมายการส่งมอบผลิตภัณฑ์ที่ตอบโจทย์ความต้องการของผู้ใช้จริงๆ",
+    tags: ["Business Mindset", "Finance", "Settrade", "Side Projects"],
   },
   {
     id: 5,
-    jd: "รับฟีดแบ็กและพัฒนาเนื้อหาต่อเนื่อง ทำงานร่วมกับทีมได้ดี",
-    match: "Feedback-Loop Mindset",
+    jd: "มีมุมมองด้านการทำคอนเทนต์และการเข้าถึงกลุ่มเป้าหมาย (Marketing)",
+    match: "ทำคอนเทนต์ & ทำการตลาด",
     detail:
-      "ผมสร้างงานคนเดียวเป็นหลัก แต่ใช้ Feedback จาก Community บน X และ upskilleveryday.com เป็น signal ปรับงาน — Draft ที่ดีที่สุดคือ Draft ที่ผ่านการ Iterate จาก real user response ไม่ใช่แค่ความเห็นส่วนตัว",
-    tags: ["Self-Directed", "Community Feedback", "Iteration", "Data-Driven"],
+      "ผมชอบคิดหาวิธีเชิญชวนผู้คน และใส่ลูกเล่นปุ่มแชร์ต่อลงโซเชียลมีเดียในตำแหน่งที่เหมาะสม ทำให้เครื่องมือประเมินจิตวิทยาที่ผมสร้างมีผู้ใช้งานแชร์ปากต่อปากถึง 120,000 คน",
+    tags: ["Organic Growth", "Social Sharing", "User Psychology", "Content Marketing"],
   },
   {
     id: 6,
-    jd: "ติดตามเทรนด์และนำ Insight มาปรับใช้กับการทำคอนเทนต์",
-    match: "Trend Spotter",
+    jd: "มีนิสัยรักการวิเคราะห์ข้อมูลและวัดผลจากการใช้งานจริง",
+    match: "คอยเช็คฟีดแบ็กคนใช้เว็บ",
     detail:
-      "ผมติดตาม Business/Tech/Culture trends อย่างสม่ำเสมอผ่าน หนังสือ, Newsletters, Podcasts ระดับโลก และ Social Listening — แล้ว translate เป็น content angle ที่เข้าถึงคนไทยได้",
-    tags: ["Trend Analysis", "Cultural Intelligence", "Local Adaptation"],
+      "ผมมักดูสถิติจริงหลังบ้านเพื่อเช็คว่าผู้ใช้ชอบใช้งานส่วนไหน หรือจุดใดที่คนเบื่อและปิดเว็บทิ้ง เพื่อจะได้นำมาปรับเปลี่ยนดีไซน์หน้าเว็บให้ใช้งานง่ายขึ้น",
+    tags: ["Data Analytics", "UX Improvement", "User Feedback", "Iteration"],
   },
   {
     id: 7,
-    jd: "มีทักษะภาษาอังกฤษในระดับดี (อ่าน เขียน และพูดได้)",
-    match: "Bilingual Communicator",
+    jd: "มีทักษะภาษาอังกฤษในระดับดี สามารถศึกษา ค้นคว้า แหล่งข้อมูลต่างประเทศได้",
+    match: "อ่านคู่มืออังกฤษได้สบาย",
     detail:
-      "ผมอ่านและฟัง Global Sources ได้สบาย — Research Papers, Industry Reports, Podcasts ต่างประเทศล้วนเป็นส่วนหนึ่งของ workflow ทุกวัน การเขียนภาษาอังกฤษทำได้ในระดับสื่อสารและสรุปข้อมูลได้ดี ไม่ใช่ระดับ native แต่เพียงพอสำหรับการ research และทำงาน",
-    tags: ["English", "Professional Writing", "Global Sources", "Bilingual"],
+      "ผมคุ้นเคยกับการอ่านคู่มือการเขียนโค้ด การค้นหาตัวอย่างแก้ปัญหาภาษาอังกฤษบนเว็บต่างประเทศ (เช่น Stack Overflow, GitHub) เพื่อเอามาแก้จุดติดขัดในงาน",
+    tags: ["English Research", "Tech documentation", "Bilingual"],
   },
   {
     id: 8,
-    jd: "มีความคิดสร้างสรรค์และสามารถนำเสนอมุมมองใหม่ ๆ ได้",
-    match: "Original Angle Finder",
+    jd: "มีทักษะในการแก้ปัญหาที่เป็นระบบและความคิดจากรากฐาน (First-Principles)",
+    match: "คิดแก้ปัญหาเป็นขั้นตอน",
     detail:
-      "ผมชอบเข้าถึงหัวข้อจากมุมที่คนยังไม่ได้พูดถึง — เช่น เชื่อมโยง behavioral science เข้ากับ business strategy หรือนำ case study ต่างประเทศมา localize ให้เข้ากับบริบทไทย",
-    tags: ["Creative Thinking", "Unique Angle", "Localization"],
+      "พื้นฐานจากคณะวิศวกรรมคอมพิวเตอร์ จุฬาฯ ช่วยสอนให้ผมมองหาต้นเหตุของปัญหา และวิเคราะห์เพื่อแก้โค้ดทีละสเต็ปอย่างมีหลักการ ไม่ใช้วิธีลองเดามั่วๆ ไปเรื่อย",
+    tags: ["Problem Solving", "Root Cause Analysis", "Computer Engineering"],
   },
   {
     id: 9,
-    jd: "มีประสบการณ์หรือความสนใจในการดำเนินรายการ/งานโปรดักชัน",
-    match: "Production Awareness",
+    jd: "ใส่ใจการทำงานเป็นทีม การจัดทำเอกสาร และสื่อสารทางเทคนิคให้เข้าใจง่าย",
+    match: "พูดและอธิบายเข้าใจง่าย",
     detail:
-      "ผมไม่เคยผลิต podcast เอง แต่ฟังและวิเคราะห์โครงสร้างของ The Secret Sauce มาอย่างจริงจัง — เข้าใจว่า flow ของ conversation, timing และ narrative arc ที่ดีเป็นอย่างไร และอยากนำสิ่งที่เรียนรู้นั้นมาใช้จริง",
-    tags: ["Podcast Listener", "Narrative Structure", "Story Arc"],
+      "จากการที่ผมชอบเขียนสรุปอธิบายเรื่องทักษะและการพัฒนาตัวเองบน X ทำให้ผมถนัดแปลคำศัพท์เทคนิคยากๆ ให้คนทั่วไป หรือฝ่ายธุรกิจเข้าใจความหมายได้รวดเร็ว",
+    tags: ["Communication", "Collaboration", "Documentation"],
   },
   {
     id: 10,
-    jd: "มีความสนใจในรายการ The Secret Sauce และสไตล์ของ The Standard",
-    match: "Brand Alignment",
+    jd: "มี Growth Mindset และความกระหายในการเรียนรู้เทคโนโลยีใหม่ๆ",
+    match: "ชอบลองเรียนรู้สิ่งใหม่",
     detail:
-      "ผมติดตาม The Secret Sauce มาตั้งแต่ต้น ชื่นชอบสไตล์การเจาะลึกธุรกิจและผู้นำที่ The Standard นำเสนอ ผมเชื่อว่าตัวผมเองมี mindset ตรงกับ brand values นี้โดยธรรมชาติ",
-    tags: ["The Secret Sauce", "The Standard", "Brand Values", "Mission Fit"],
+      "ผมเป็นคนเปิดรับสิ่งใหม่ตลอดเวลา เครื่องมือตัวไหนหรือสไตล์การเขียนโค้ดแบบไหนที่ไม่เคยทำ ผมก็ยินดีเรียนรู้เพิ่มเติมเพื่อเอามาปรับปรุงงานให้เสร็จสมบูรณ์",
+    tags: ["Continuous Learning", "Lifelong Learner", "Adaptability"],
   },
 ];
 
@@ -111,12 +111,12 @@ export default function BlueprintSection() {
             01 · The Blueprint
           </span>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-white mb-4">
-            ทำไมผมถึง{" "}
-            <span className="red-gradient-text">Match</span>{" "}
-            กับงานนี้
+            ทักษะและ{" "}
+            <span className="red-gradient-text">ประวัติย่อ</span>{" "}
+            ของผม
           </h2>
           <p className="text-neutral-400 text-base max-w-xl leading-relaxed">
-            10 คุณสมบัติที่คุณต้องการ กับ 10 หลักฐานว่าผมมีสิ่งเหล่านั้น
+            10 มิติด้านวิศวกรรม การตลาด และความคุ้นเคยกับการใช้ AI สร้างงานออนไลน์
             — คลิกแต่ละข้อเพื่อดูรายละเอียด
           </p>
         </div>
@@ -151,21 +151,21 @@ export default function BlueprintSection() {
               </span>
             </div>
             <div>
-              <p className="text-white font-semibold">Match Score: 100%</p>
+              <p className="text-white font-semibold">AI-Assisted Web Builder</p>
               <p className="text-neutral-500 text-sm">
-                ครบ 10 คุณสมบัติตามที่ระบุใน JD
+                ใช้ AI ช่วยพัฒนาโค้ด + ความเข้าใจ Content & Marketing
               </p>
             </div>
           </div>
           <div className="flex gap-2 flex-wrap">
             <span className="px-3 py-1 bg-dark-600 rounded-full text-xs text-neutral-400">
-              Content Strategy ✓
+              AI-Assisted Build ✓
             </span>
             <span className="px-3 py-1 bg-dark-600 rounded-full text-xs text-neutral-400">
               Business Acumen ✓
             </span>
             <span className="px-3 py-1 bg-dark-600 rounded-full text-xs text-neutral-400">
-              Bilingual ✓
+              Content & Marketing ✓
             </span>
           </div>
         </div>
@@ -180,7 +180,7 @@ export default function BlueprintSection() {
               <p className="text-neutral-500 text-xs uppercase tracking-widest mb-1">การศึกษา</p>
               <p className="text-white font-semibold text-sm">วิศวกรรมคอมพิวเตอร์</p>
               <p className="text-neutral-400 text-xs mt-0.5">จุฬาลงกรณ์มหาวิทยาลัย</p>
-              <p className="text-neutral-600 text-xs mt-1">Systems Thinking · First-Principles · Data-Driven</p>
+              <p className="text-neutral-600 text-xs mt-1">Systems Thinking · First-Principles · Tech Foundation</p>
             </div>
           </div>
           <div className="flex gap-4">
@@ -188,10 +188,10 @@ export default function BlueprintSection() {
               <span className="text-brand-red text-sm">💼</span>
             </div>
             <div>
-              <p className="text-neutral-500 text-xs uppercase tracking-widest mb-1">ประสบการณ์ทำงาน</p>
-              <p className="text-white font-semibold text-sm">Marketing & App Operations</p>
-              <p className="text-neutral-400 text-xs mt-0.5">Settrade (ในเครือ SET)</p>
-              <p className="text-neutral-600 text-xs mt-1">Marketing · App Management · Capital Markets</p>
+              <p className="text-neutral-500 text-xs uppercase tracking-widest mb-1">การทำงาน &amp; ผลงานส่วนตัว</p>
+              <p className="text-white font-semibold text-sm">อดีต AE (Settrade) &amp; ผู้สร้าง upskilleveryday.com</p>
+              <p className="text-neutral-400 text-xs mt-0.5">Client Relations (Settrade) &amp; Self-Taught Web Builder</p>
+              <p className="text-neutral-600 text-xs mt-1">Client Management · Tech Self-Learning · AI-Assisted Build</p>
             </div>
           </div>
         </div>

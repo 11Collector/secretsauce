@@ -52,8 +52,8 @@ export default function Hero() {
               {/* Badge */}
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-red/10 border border-brand-red/20 rounded-full mb-8">
                 <span className="w-1.5 h-1.5 bg-brand-red rounded-full animate-pulse" />
-                <span className="text-brand-red text-xs font-medium tracking-wider uppercase">
-                  ฟุ้ย · สมัครตำแหน่ง Content Creator · The Standard / The Secret Sauce
+                <span className="text-brand-red text-xs font-semibold tracking-wider uppercase">
+                  ธนวัฒน์ (ฟุ้ย) · Self-Taught Web Builder &amp; Creator
                 </span>
               </div>
 
@@ -66,21 +66,19 @@ export default function Hero() {
               {/* Subhead */}
               <div className="mt-8 max-w-xl">
                 <p className="text-neutral-300 text-lg sm:text-xl leading-relaxed">
-                  วิศวกรคอมพิวเตอร์ที่ผันตัวมาทำ Content —{" "}
-                  <span className="text-white font-semibold">เพราะเชื่อว่าไอเดียที่ดีสื่อสารไม่เก่ง ก็ไม่ต่างจากไม่มีไอเดีย</span>
+                  วิศวกรคอมพิวเตอร์สายธุรกิจ (อดีต AE) ที่ศึกษา <span className="text-white font-semibold">เรียนรู้การเขียนเว็บด้วยตนเอง</span> และใช้ AI ช่วยสร้างโปรดักต์ที่มีผู้เล่นจริง
                 </p>
                 <p className="text-neutral-500 text-base mt-3 leading-relaxed">
-                  จากฝั่ง Marketing & App ที่ Settrade สู่ Content Creator ที่สร้าง ~10M Views บน X
-                  — ผมเอา Systems Thinking มาใช้ทำ Content ที่คนไม่แค่อ่าน แต่เอาไปทำต่อ
+                  ผมทำงานในสาย AE มาโดยตลอดและไม่เคยเป็นโปรแกรมเมอร์ในบริษัทมาก่อนเลยครับ เว็บทั้งหมดนี้เกิดจากการที่ผมศึกษาเรียนรู้การทำเว็บด้วยตัวเอง โดยใช้เครื่องมือ AI มาเป็นผู้ช่วยเขียนโค้ดและดีบั๊กเพื่อให้สร้างหน้าแอปที่มีคนใช้งานจริงออนไลน์ได้
                 </p>
               </div>
 
               {/* Stats row */}
               <div className="flex flex-wrap gap-6 mt-10 mb-10">
                 {[
-                  { number: "~10M", label: "Total X Views" },
-                  { number: "5", label: "Interactive Tools" },
-                  { number: "7", label: "Viral Threads" },
+                  { number: "120K+", label: "คนเล่นแบบทดสอบออนไลน์" },
+                  { number: "5+", label: "เว็บแอปพลิเคชันที่สร้าง" },
+                  { number: "10M+", label: "ยอดเข้าชมคอนเทนต์ใน X" },
                 ].map((stat) => (
                   <div key={stat.label} className="flex flex-col">
                     <span className="text-2xl sm:text-3xl font-bold text-white">
@@ -98,13 +96,13 @@ export default function Hero() {
                   className="group flex items-center gap-2 px-6 py-3 bg-brand-red hover:bg-brand-red-dark text-white font-semibold rounded transition-all duration-200 text-sm"
                 >
                   <Play size={16} className="group-hover:scale-110 transition-transform" />
-                  ดู Portfolio ของผม
+                  ดูผลงานของผม
                 </button>
                 <button
                   onClick={scrollToBlueprint}
                   className="flex items-center gap-2 px-6 py-3 border border-dark-400 hover:border-neutral-500 text-neutral-300 hover:text-white font-medium rounded transition-all duration-200 text-sm"
                 >
-                  ทำไมผมถึงใช่
+                  ทักษะและประวัติของผม
                   <ExternalLink size={14} />
                 </button>
                 <a
@@ -133,7 +131,7 @@ export default function Hero() {
                 {/* Floating badge */}
                 <div className="absolute -bottom-2 -right-2 bg-dark-700 border border-dark-500 rounded-xl px-3 py-1.5 flex items-center gap-1.5 shadow-xl">
                   <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
-                  <span className="text-white text-xs font-medium">พร้อมสัมภาษณ์</span>
+                  <span className="text-white text-xs font-medium">พร้อมรับฟังโอกาสใหม่</span>
                 </div>
               </div>
             </div>
@@ -161,7 +159,7 @@ export default function Hero() {
             .fill(null)
             .map((_, i) => (
               <span key={i} className="text-neutral-700 text-xs tracking-wider mx-8">
-                Content Creator · Business Analyst · Platform Builder · Storyteller · The Secret Sauce ·
+                เขียนเว็บแอปพลิเคชัน · ชอบลองเล่นเครื่องมือ AI · คนทำคอนเทนต์ออนไลน์ · Next.js · React · Firebase · HTML &amp; CSS · พัฒนาตนเอง ·
               </span>
             ))}
         </div>

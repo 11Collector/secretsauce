@@ -31,79 +31,79 @@ type CaseStudy = {
 const caseStudies: CaseStudy[] = [
   {
     id: 1,
-    label: "DISC Tool",
+    label: "DISC Assessment (Product Growth)",
     problem:
-      "แบบประเมิน DISC ที่มีในตลาดส่วนใหญ่น่าเบื่อ ซับซ้อน และผลที่ได้ไม่ Actionable — คนทำแล้วก็ลืม",
+      "แบบทดสอบบุคลิกภาพทั่วไปตามอินเทอร์เน็ตส่วนใหญ่ใช้งานยาก มีโฆษณาเยอะ หรือคำถามยาวจนคนกดปิดไปก่อน ทำให้ไม่มีคนอยากเข้ามาเล่นหรือแชร์ต่อให้เพื่อนๆ",
     insight:
-      "คนไม่ต้องการรู้แค่ว่าตัวเองเป็น Type อะไร — คนต้องการรู้ว่า 'แล้วผมควรทำอะไรต่อ?' นั่นคือ gap ที่ทุก tool พลาด",
+      "คนเล่นแบบทดสอบออนไลน์อยากรู้ผลลัพธ์ที่แม่นยำ อ่านเข้าใจง่าย ได้คำแนะนำที่เป็นรูปธรรม และสามารถเซฟรูปภาพสรุปเพื่อไปคุยต่อกับกลุ่มเพื่อนได้สะดวกที่สุด",
     steps: [
       {
         icon: <Search size={16} />,
-        label: "1. พบ Pain Point",
+        label: "1. ค้นพบความต้องการและข้อจำกัด",
         detail:
-          "ทดลองใช้ DISC tools ในตลาดกว่า 10 อัน ทั้งไทยและต่างประเทศ — ทุกอันหยุดที่ 'คุณคือ Type D' แต่ไม่มีใครบอกว่า 'แล้วควรพัฒนาอะไร?' หรือ 'ควรทำงานกับคน Type S อย่างไร?' นั่นคือ content gap ที่ชัดเจน",
+          "ลองเล่นแบบสอบถามที่มีอยู่ พบว่ามีจุดติดขัด เช่น คำถามเข้าใจยาก หน้าเว็บไม่เหมาะกับมือถือ และไม่มีปุ่มให้คนกดดาวน์โหลดหรือกดแชร์ผลลัพธ์ออกไปง่ายๆ",
       },
       {
         icon: <Database size={16} />,
-        label: "2. Research & Design",
+        label: "2. ออกแบบระบบและการคำนวณ",
         detail:
-          "ศึกษา Gamification Psychology, Behavioral Nudge Design, และ UX ของ tools ที่คนติดใช้จริง (Duolingo, 16Personalities) — แล้ว map กับ DISC research จาก Wiley เพื่อออกแบบ question flow ใหม่ทั้งหมดที่ผู้ใช้รู้สึก engage ไม่ใช่แค่กรอกแบบฟอร์ม",
+          "ตั้งคำถามสั้นกระชับ ออกแบบ Flow การเล่นให้จบในไม่กี่นาที และวิจัยหาวิธีใช้โค้ดวาด Radar Chart แบบ SVG ที่โหลดเร็วและไม่หนักระบบ",
       },
       {
         icon: <PenTool size={16} />,
-        label: "3. Build & Iterate",
+        label: "3. พัฒนาและออกแบบ Interaction",
         detail:
-          "เพิ่ม result page ใหม่ที่มี 3 layer: ด้านแข็ง → จุดระวัง (ด้านมืด) → วิธีทำงานกับคน type อื่น พร้อม visual ที่ share-worthy — แล้ว iterate ต่อเนื่องจาก feedback ของผู้ใช้จริง",
+          "เขียนเว็บแอปพลิเคชันด้วย React พัฒนาหน้าแสดงผล Radar Chart ที่วาดด้วยกราฟิก SVG และทำระบบเจเนอเรตรูปภาพสรุปผลให้ผู้เล่นกดเซฟรูปภาพลงเครื่องได้สะดวก",
       },
       {
         icon: <TrendingUp size={16} />,
-        label: "4. Result",
+        label: "4. ผลลัพธ์เชิงการใช้งานและการตอบรับ",
         detail:
-          "มีผู้ใช้จริงกว่า 120,000 คน บน X — feedback ส่วนใหญ่บอกว่าผลแม่น ผู้ใช้ spontaneously แชร์ให้เพื่อน สร้าง organic growth แบบ word-of-mouth Thread ที่เล่ากระบวนการสร้างได้ 3.3M Views",
+          "มีคนเข้ามากรอกเล่นจริงออนไลน์สะสมกว่า 120,000 คน และเกิดกระแสปากต่อปาก มีการแชร์ผลลัพธ์ลงโซเชียล รวมถึงกระทู้สรุปวิธีทำเครื่องมือนี้ได้รับความสนใจสูงถึง 3.3M views บน X",
       },
     ],
     outcome:
-      "DISC Tool ที่คนแชร์ต่อเพราะ 'โดนใจ' และ 'มีประโยชน์จริง' — ไม่ใช่แค่ fun quiz ที่ทำแล้วลืม",
-    outcomeHighlight: "3.3M Views",
-    tags: ["DISC", "Product Design", "UX", "Gamification", "Self-Dev"],
+      "เครื่องมือประเมิน DISC ฉบับทำเล่นง่ายๆ ที่มีผู้ใช้งานจริงกว่า 120,000 คน โดยเกิดจากการแนะนำปากต่อปากและการทำคอนเทนต์ที่ดี",
+    outcomeHighlight: "120K+ Users",
+    tags: ["React", "SVG Rendering", "Interaction Design", "Growth Engineering"],
   },
   {
     id: 2,
-    label: "XP Gamification",
+    label: "XP Gamification Engine (User Retention)",
     problem:
-      "upskilleveryday.com มี Content และ Tools ที่ดี แต่คนอ่านแล้วปิด — ไม่มี mechanism ที่ทำให้คนรู้สึกว่า 'กำลังเติบโต' และอยากกลับมาซ้ำ",
+      "ผู้ใช้เข้ามาทำแบบประเมินหรืออ่านบทความแล้วก็ปิดหน้าเว็บหนีไปเลย ขาดความน่าดึงดูดที่ช่วยให้ผู้ใช้อยากแวะเวียนกลับเข้ามาใช้งานใหม่อีกครั้ง",
     insight:
-      "คนไม่ขาดแรงจูงใจเรื่องการพัฒนาตัวเอง — คนขาด Feedback Loop ที่บอกว่า 'ฉันกำลัง Progress' นั่นคือสิ่งที่ Game เข้าใจมาตลอด",
+      "ความรู้สึกได้รับรางวัลและการเห็นความก้าวหน้าของตัวเองเหมือนการเก็บเลเวลในเกม (Gamification) เป็นจุดเชิญชวนที่ดีให้ผู้ใช้อยากกลับมาใช้งานซ้ำ",
     steps: [
       {
         icon: <Search size={16} />,
-        label: "1. พบ Root Cause",
+        label: "1. ค้นหาปัจจัยการรักษาผู้ใช้งาน",
         detail:
-          "วิเคราะห์ว่าทำไม self-dev content ถึงถูกอ่านแล้วลืม — Root Cause ไม่ใช่เรื่อง content quality แต่คือไม่มี Progress Indicator ที่ trigger dopamine feedback loop เหมือนที่ game และ social media ทำได้ดี",
+          "วิเคราะห์ว่าทำไมคนเข้าเว็บพัฒนาตัวเองแล้วไม่กลับมาบ่อยๆ เพราะไม่มีสิ่งที่บันทึกว่าพวกเขาได้เรียนรู้อะไรไปแล้วบ้าง หรือเติบโตขึ้นแค่ไหน",
       },
       {
         icon: <Database size={16} />,
-        label: "2. Gamification Research",
+        label: "2. ศึกษาแนวคิดการทำ Gamification",
         detail:
-          "ศึกษา Octalysis Framework ของ Yu-kai Chou, Duolingo streak mechanics, และ RPG progression system — distill เป็น 3 mechanic หลักที่ใช้ได้กับ self-dev: XP Points, Skill Tree, และ Level Badge ตามสายที่ผู้ใช้สนใจ (Finance / Leadership / Mindset)",
+          "ศึกษาแนวคิดการทำ Gamification พื้นฐาน เช่น การแจกคะแนน XP ตามการกระทำ ระบบผังทักษะ (Skill Tree) และตราสัญลักษณ์เพื่อจูงใจคนกลับเข้ามาเช็คสถานะตัวเอง",
       },
       {
         icon: <PenTool size={16} />,
-        label: "3. System Design",
+        label: "3. พัฒนาและเชื่อมต่อระบบสะสมแต้ม",
         detail:
-          "ออกแบบ XP Economy: อ่านบทความ → XP, ทำ Assessment Tool → XP bonus, เก็บ Skill Points แยกตาม category, unlock Level Badge เมื่อถึง threshold — ทั้งหมดนี้สร้าง Progress Dashboard ที่ผู้ใช้อยากกลับมาดูซ้ำ",
+          "เขียนระบบจัดการข้อมูลและการสะสมแต้ม XP: อ่านเนื้อหาได้แต้ม ทำแบบทดสอบจิตวิทยาได้แต้มเพิ่มขึ้น และอัปเกรดระดับทักษะแสดงผลบนแดชบอร์ดส่วนตัว",
       },
       {
         icon: <Zap size={16} />,
-        label: "4. Vision & Next Step",
+        label: "4. ผลสัมฤทธิ์และก้าวถัดไป",
         detail:
-          "Platform ที่คนกลับมาซ้ำไม่ใช่เพราะ notification — แต่เพราะอยากเก็บ XP, ดู Skill Tree ของตัวเอง และ unlock Badge ใหม่ เป้าหมายคือทำให้ Self-Development รู้สึกเหมือนเล่น RPG ที่ตัวเอกคือตัวผู้ใช้เอง",
+          "ช่วยแก้ปัญหาเว็บเงียบเหงาให้รู้สึกมีสีสันน่าเล่นมากขึ้น โดยการจำลองการอัพเลเวลเหมือนเล่นเกม ซึ่งช่วยดึงดูดใจผู้ใช้งานเดิมได้ดี",
       },
     ],
     outcome:
-      "Product Vision: Self-Dev Platform ที่ให้ความรู้สึก rewarding ทุก session — เพราะการเติบโตควรรู้สึกได้จริง ไม่ใช่แค่รู้สึกว่า 'ควรทำ'",
-    outcomeHighlight: "Retention ↑",
-    tags: ["Gamification", "Product Design", "UX", "Retention", "upskilleveryday.com"],
+      "ช่วยสร้างลูกเล่นเพิ่มเติมให้เว็บน่าสนใจและเป็นรูปธรรมมากขึ้น ดึงดูดให้คนอยากเข้ามาเก็บ XP และดูผลลัพธ์ของตัวเองซ้ำ",
+    outcomeHighlight: "Engagement ↑",
+    tags: ["Gamification", "Database Schema", "State Management", "User Retention"],
   },
 ];
 
@@ -124,12 +124,11 @@ export default function CaseStudies() {
             03 · Case Studies
           </span>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-white mb-4">
-            เบื้องหลัง
-            <span className="red-gradient-text"> ความคิด</span>
+            กรณีศึกษา
+            <span className="red-gradient-text"> เชิงเทคนิคและการเติบโต</span>
           </h2>
           <p className="text-neutral-400 text-base max-w-xl leading-relaxed">
-            ผมเริ่มจาก Problem ที่เจ็บปวดจริง — ไม่ใช่ไอเดียในอากาศ
-            นี่คือกระบวนการคิดและสร้างของผม 2 เคส
+            เบื้องหลังการพัฒนาผลิตภัณฑ์ที่ตอบโจทย์ความต้องการของผู้ใช้และการตลาดอย่างมีกลยุทธ์
           </p>
         </div>
 
@@ -165,7 +164,7 @@ export default function CaseStudies() {
                   <Search size={11} className="text-neutral-400" />
                 </div>
                 <p className="text-neutral-500 text-xs uppercase tracking-wider">
-                  Problem ที่พบ
+                  ปัญหาที่ต้องแก้ไข
                 </p>
               </div>
               <p className="text-neutral-200 text-sm leading-relaxed font-medium">
@@ -180,7 +179,7 @@ export default function CaseStudies() {
                   <Lightbulb size={11} className="text-brand-red" />
                 </div>
                 <p className="text-neutral-500 text-xs uppercase tracking-wider">
-                  Core Insight
+                  Insight สำคัญ
                 </p>
               </div>
               <p className="text-white text-sm leading-relaxed font-semibold">
@@ -224,7 +223,7 @@ export default function CaseStudies() {
           {/* Right: process steps */}
           <div className="lg:col-span-3">
             <p className="text-neutral-500 text-xs uppercase tracking-wider mb-4">
-              กระบวนการทำงาน — คลิกแต่ละขั้นเพื่อดูรายละเอียด
+              กระบวนการแก้ปัญหาเชิงโครงสร้าง — คลิกเพื่อดูรายละเอียด
             </p>
             <div className="flex flex-col gap-3">
               {cs.steps.map((step, i) => (

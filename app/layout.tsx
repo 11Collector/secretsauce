@@ -2,41 +2,41 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ฟุ้ย ธนวัฒน์ หล่อวิทยโอฬาร | Content Creator & Platform Builder",
+  title: "ธนวัฒน์ หล่อวิทยโอฬาร (ฟุ้ย) | Self-Taught Web Builder & Creator",
   description:
-    "นักสร้างเนื้อหาที่เชื่อมโยงธุรกิจ ความคิด และการพัฒนาตนเอง — สมัครตำแหน่ง Content Creator at The Standard / The Secret Sauce",
+    "วิศวกรคอมพิวเตอร์สายธุรกิจ (อดีต AE) ที่เรียนรู้การพัฒนาเว็บด้วยตนเองและใช้ AI ช่วยสร้างสรรค์เครื่องมือออนไลน์ที่มีผู้เล่นจริงกว่า 120,000 คน",
   keywords: [
-    "Content Creator",
-    "Business Content",
-    "Content Platform",
-    "The Secret Sauce",
-    "The Standard",
+    "Self-Taught Developer",
+    "Web Builder",
+    "React",
+    "TypeScript",
+    "AI-assisted coding",
+    "ธนวัฒน์ หล่อวิทยโอฬาร",
     "ฟุ้ย ธนวัฒน์",
-    "Thanawat",
   ],
-  authors: [{ name: "ฟุ้ย ธนวัฒน์ หล่อวิทยโอฬาร" }],
+  authors: [{ name: "ธนวัฒน์ หล่อวิทยโอฬาร" }],
   openGraph: {
     type: "website",
     locale: "th_TH",
-    url: "https://secretsauce-portfolio.vercel.app",
-    siteName: "ฟุ้ย ธนวัฒน์ — Portfolio",
-    title: "ฟุ้ย ธนวัฒน์ หล่อวิทยโอฬาร | Content Creator & Platform Builder",
+    url: "https://upskilleveryday.com",
+    siteName: "ธนวัฒน์ หล่อวิทยโอฬาร — Portfolio",
+    title: "ธนวัฒน์ หล่อวิทยโอฬาร (ฟุ้ย) | Self-Taught Web Builder & Creator",
     description:
-      "นักสร้างเนื้อหาที่เชื่อมโยงธุรกิจ ความคิด และการพัฒนาตนเอง สมัครตำแหน่ง Content Creator at The Standard / The Secret Sauce",
+      "วิศวกรคอมพิวเตอร์สายธุรกิจ (อดีต AE) ที่เรียนรู้การพัฒนาเว็บด้วยตนเองและใช้ AI ช่วยสร้างสรรค์เครื่องมือออนไลน์ที่มีผู้เล่นจริงกว่า 120,000 คน",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "ฟุ้ย ธนวัฒน์ หล่อวิทยโอฬาร — Content Creator Portfolio",
+        alt: "ธนวัฒน์ หล่อวิทยโอฬาร — Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ฟุ้ย ธนวัฒน์ หล่อวิทยโอฬาร | Content Creator & Platform Builder",
+    title: "ธนวัฒน์ หล่อวิทยโอฬาร (ฟุ้ย) | Self-Taught Web Builder & Creator",
     description:
-      "นักสร้างเนื้อหาที่เชื่อมโยงธุรกิจ ความคิด และการพัฒนาตนเอง",
+      "วิศวกรคอมพิวเตอร์สายธุรกิจ (อดีต AE) ที่เรียนรู้การพัฒนาเว็บด้วยตนเองและใช้ AI ช่วยสร้างโปรดักต์ที่มีผู้ใช้จริงในออนไลน์",
     images: ["/og-image.png"],
   },
   robots: {
