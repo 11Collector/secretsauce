@@ -70,7 +70,7 @@ export default function ResumePage() {
               <div className="flex flex-col gap-1.5 text-right print:text-right sm:text-right text-left sm:flex-shrink-0">
                 {[
                   { icon: <Mail size={12} />, text: "emotion.tuii@gmail.com" },
-                  { icon: <XIcon />, text: "@FuiiThanawat · ~10M Views" },
+                  { icon: <XIcon />, text: "@FuiiThanawat · ~18.9K Follows" },
                   { icon: <Instagram size={12} />, text: "@upskillwithfuii" },
                   { icon: <Globe size={12} />, text: "upskilleveryday.com" },
                 ].map((c) => (
@@ -116,7 +116,7 @@ export default function ResumePage() {
                   {[
                     { n: "120K+", l: "Users (แบบประเมิน)" },
                     { n: "5+", l: "Interactive Apps" },
-                    { n: "10M+", l: "Content Reach (X)" },
+                    { n: "18.9K+", l: "Total Followers" },
                     { n: "3.3M", l: "Top Thread Views" },
                     { n: "30+", l: "Tech/Self-Dev Articles" },
                   ].map((s) => (
@@ -208,7 +208,7 @@ export default function ResumePage() {
                   วิศวกรคอมพิวเตอร์สายธุรกิจจากจุฬาฯ (อดีต AE) ที่ศึกษาเรียนรู้การเขียนเว็บด้วยตนเอง โดยใช้อภิสิทธิ์ความช่วยเหลือจาก AI ในการไกด์เขียนโค้ดและช่วยแก้บั๊ก เพื่อสร้างโปรเจกต์ออนไลน์ที่ใช้งานง่ายและดึงดูดผู้เล่น
                 </p>
                 <p className="text-[11px] text-[#333] leading-relaxed mt-2">
-                  ผมเริ่มการทำงานจากการเป็น Account Executive (AE) ดูแลระบบและลูกค้าที่ Settrade ก่อนจะใช้เวลาว่างลองศึกษาเรียนรู้เขียนเว็บ และพัฒนาโปรเจกต์ของตัวเองอย่าง upskilleveryday.com จนสร้างเครื่องมือ Interactive หลากหลายชิ้นที่มีคนเข้ามาเล่นและบอกต่อสะสมกว่า 120,000 คน พร้อมทำคอนเทนต์ X มีคนอ่านกว่า 10M+ Views
+                  ผมเริ่มการทำงานจากการเป็น Account Executive (AE) ดูแลระบบและลูกค้าที่ Settrade ก่อนจะใช้เวลาว่างลองศึกษาเรียนรู้เขียนเว็บ และพัฒนาโปรเจกต์ของตัวเองอย่าง upskilleveryday.com จนสร้างเครื่องมือ Interactive หลากหลายชิ้นที่มีคนเข้ามาเล่นและบอกต่อสะสมกว่า 120,000 คน พร้อมทำคอนเทนต์ออนไลน์ที่มีผู้ติดตามรวมทุกช่องทางกว่า 18.9K+ คน
                 </p>
               </section>
 

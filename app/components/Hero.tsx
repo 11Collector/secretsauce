@@ -78,7 +78,7 @@ export default function Hero() {
                 {[
                   { number: "120K+", label: "คนเล่นแบบทดสอบออนไลน์" },
                   { number: "5+", label: "เว็บแอปพลิเคชันที่สร้าง" },
-                  { number: "10M+", label: "ยอดเข้าชมคอนเทนต์ใน X" },
+                  { number: "18.9K+", label: "ผู้ติดตามรวมทุกช่องทาง" },
                 ].map((stat) => (
                   <div key={stat.label} className="flex flex-col">
                     <span className="text-2xl sm:text-3xl font-bold text-white">
