@@ -70,7 +70,7 @@ export default function ResumePage() {
               <div className="flex flex-col gap-1.5 text-right print:text-right sm:text-right text-left sm:flex-shrink-0">
                 {[
                   { icon: <Mail size={12} />, text: "emotion.tuii@gmail.com" },
-                  { icon: <XIcon />, text: "@FuiiThanawat · ~18.9K Follows" },
+                  { icon: <XIcon />, text: "@FuiiThanawat" },
                   { icon: <Instagram size={12} />, text: "@upskillwithfuii" },
                   { icon: <Globe size={12} />, text: "upskilleveryday.com" },
                 ].map((c) => (
@@ -116,7 +116,7 @@ export default function ResumePage() {
                   {[
                     { n: "120K+", l: "Users (แบบประเมิน)" },
                     { n: "5+", l: "Interactive Apps" },
-                    { n: "18.9K+", l: "Total Followers" },
+                    { n: "18.9K+", l: "Followers (X/Tiktok/IG/FB)" },
                     { n: "3.3M", l: "Top Thread Views" },
                     { n: "30+", l: "Tech/Self-Dev Articles" },
                   ].map((s) => (
